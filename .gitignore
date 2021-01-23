@@ -4,3 +4,5 @@
 /target/
 /target/scala-2.12/classes/
 /spark-3.0.1-bin-hadoop2.7/
+/.idea/
+/.gradle/

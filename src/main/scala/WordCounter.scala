@@ -4,7 +4,7 @@ import org.apache.spark.SparkContext
 import org.apache.spark.SparkConf
 
 object WordCounter {
-  def main(args : Array[String]) {
+  def main(args : Array[String] ) {
     val conf = new SparkConf().setAppName("WordCounter").setMaster("local[2]").set("spark.executor.memory","1g");
     val sc = new SparkContext(conf)
     val textFile = sc.textFile("sample")
